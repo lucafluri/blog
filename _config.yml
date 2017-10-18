@@ -20,8 +20,11 @@ author:
   name:         Luca Fluri
   url:          http://lucafluri.ch
   email:        me@lucafluri.ch
+  twitter:      lucafluri
+  github:       lucafluri    
 
 
 # Gems
 gems:
   - jekyll-paginate
+  - jekyll-feed
