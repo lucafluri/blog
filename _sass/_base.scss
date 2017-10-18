@@ -6,8 +6,10 @@
 html,
 body {
   color: $default-color;
+  //background-color: $background-color;
   margin: 0;
   padding: 0;
+
 }
 
 html {
@@ -29,13 +31,17 @@ h3,
 h4,
 h5,
 h6 {
-  color: $default-shade;
+  color: $grey-2;
   font-family: $sans-font;
   line-height: normal;
 }
 
+#HeadTitle{
+  color: $titleColor;
+}
+
 a {
-  color: $blue;
+  color: $grey-3;
   text-decoration: none;
 }
 
@@ -46,6 +52,7 @@ blockquote {
   padding: .5rem 1rem;
 
   p:last-child {
+    color: $default-color;
     margin-bottom: 0;
   }
 
@@ -62,4 +69,32 @@ img {
 
 td {
   vertical-align: top;
+}
+
+@media (min-width: 1000px) {
+
+  body {
+      background: -webkit-radial-gradient(#323232, #202020) fixed;
+      /* For Safari 5.1 to 6.0 */
+      background: -o-radial-gradient(#323232, #202020) fixed;
+      /* For Opera 11.1 to 12.0 */
+      background: -moz-radial-gradient(#323232, #202020) fixed;
+      /* For Firefox 3.6 to 15 */
+      background: radial-gradient(#323232, #202020) fixed;
+      /* Standard syntax */
+      background-repeat: repeat;
+      background-size: cover;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-attachment: fixed;
+  }
+
+}
+
+
+@media (max-width: 1000px) {
+  body {
+    background-color: #202020;
+  }
 }
