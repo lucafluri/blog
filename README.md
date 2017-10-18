@@ -1,3 +1,3 @@
 # Blog
 
-Hosted at [blog.lucafluri.ch](blog.lucafluri.ch)
+Hosted at [blog.lucafluri.ch](http://blog.lucafluri.ch)
