@@ -71,6 +71,32 @@ td {
   vertical-align: top;
 }
 
+#mcSignup{
+
+}
+#email{
+  background-color: $lightBackground;
+  border: 2px solid $lightBackground;
+  border-radius: 5px;
+  outline: none;
+  color: $default-color;
+  padding-left: 10px;
+}
+#email:focus{
+  border: 2px solid $titleColor;
+}
+#subscribe{
+  background-color: $lightBackground;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  color: $default-color;
+}
+#subscribe:hover{
+  background-color: $titleColor;
+  color: #000000;
+}
+
 @media (min-width: 1000px) {
 
   body {
