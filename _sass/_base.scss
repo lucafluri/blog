@@ -67,9 +67,24 @@ img {
   max-width: 100%;
 }
 
-td {
+
+table, th, td {
   vertical-align: top;
+  border-collapse: collapse;
+
+
 }
+th, td{
+  border-bottom: 1px solid $default-color;
+  padding: 5px;
+}
+
+th{
+  //background-color: $lightBackground;
+
+}
+
+tr:nth-child(even) {background-color: $lighterBackground}
 
 #mcSignup{
 

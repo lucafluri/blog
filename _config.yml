@@ -21,10 +21,12 @@ author:
   url:          http://lucafluri.ch
   email:        me@lucafluri.ch
   twitter:      lucafluri
-  github:       lucafluri    
+  github:       lucafluri
 
 
 # Gems
 gems:
   - jekyll-paginate
   - jekyll-feed
+
+show_drafts: false
