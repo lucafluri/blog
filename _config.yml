@@ -44,6 +44,6 @@ social:
 gems:
   - jekyll-paginate
   - jekyll-feed
-  - jekyll-seo-tag
+
 
 show_drafts: false

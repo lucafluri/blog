@@ -3,15 +3,15 @@ $default-color: #979797;
 $default-shade: #e9f100;
 $default-tint: #aaa;
 $grey-1: #979797;
-$grey-2: #e5e5e5;
-$grey-3: #f9f9f9;
+$grey-2: #d4d4d4;
+$grey-3: #e7e4e4;
 $white: #fff;
 $blue: #4a9ae1;
 $shadow-color: rgba(0, 0, 0, .2);
 $background-color: #202020;
-$lightBackground-color: #323232;
-$lightBackground: #424242;
-$lighterBackground: #494949;
+$lightBackground-color: #252525;
+$lightBackground: #2f2f2f;
+$lighterBackground: #333333;
 
 $baskerville: 'Libre Baskerville', 'Times New Roman', Times, serif;
 $palatino: Palatino, 'Palatino LT STD', 'Palatino Linotype', 'Book Antiqua', 'Georgia', serif;
@@ -19,7 +19,7 @@ $sans-font: 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
 $ubuntu: 'Ubuntu Mono', monospace;
 
 $monospaced-font: Menlo, Monaco, monospace;
-$code-color: #bf616a;
+$code-color: #cdd400;
 
 @mixin box-sizing($type: border-box) {
   -webkit-box-sizing: $type;
