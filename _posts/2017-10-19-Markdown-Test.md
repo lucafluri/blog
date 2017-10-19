@@ -13,10 +13,12 @@ Ordered:
 1. Buagau
 2. Uauiaia
  - 35757
-  
+
 [Liink](google.com)
 
 ![image](http://lucafluri.ch/icon.ico)
+
+
 
 ```sh
 sudo apt-get install make
@@ -40,7 +42,7 @@ print("Hello Markdown")
 -------
 Line above
 
- ~~Not anymore~~ 
+ ~~Not anymore~~
 
 | Col 1 | Col 2 | Col 3 |
 |:----------:|:----------:|:----------:|
