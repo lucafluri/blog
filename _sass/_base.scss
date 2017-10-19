@@ -13,11 +13,11 @@ body {
 }
 
 html {
-  font-family: $baskerville;
-  font-size: 14px;
+  font-family: $ubuntu;
+  font-size: 16px;
 
   @media (min-width: 600px) {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 
@@ -32,7 +32,7 @@ h4,
 h5,
 h6 {
   color: $grey-2;
-  font-family: $sans-font;
+  font-family: $ubuntu;
   line-height: normal;
 }
 
@@ -46,7 +46,7 @@ a {
 }
 
 blockquote {
-  border-left: .25rem solid $grey-2;
+  border-left: .25rem solid $default-tint;
   color: $grey-1;
   margin: .8rem 0;
   padding: .5rem 1rem;
@@ -56,27 +56,45 @@ blockquote {
     margin-bottom: 0;
   }
 
-  @media (min-width: 600px) {
+  @media (min-width: 800px) {
     padding: 0 5rem 0 1.25rem;
   }
 }
 
+hr{
+  border: none;
+  border-top: 1px dashed $default-color;
+  margin: 2em auto;
+  width: 90%;
+  background: none;
+}
+
 img {
   display: block;
-  margin: 0 0 1rem;
+  margin: 0 auto;
   max-width: 100%;
 }
 
-
-table, th, td {
-  vertical-align: top;
+table{
+  //background-color: transparent;
   border-collapse: collapse;
-
+  border-spacing: 0;
+  width: 100%;
+  margin-bottom: 20px;
+  table-layout: fixed;
 
 }
+
+
+
+
+
 th, td{
+  padding: 4px 8px;
+  line-height: 20px;
+  text-align: left;
+  vertical-align: top;
   border-bottom: 1px solid $default-color;
-  padding: 5px;
 }
 
 th{
@@ -86,8 +104,20 @@ th{
 
 tr:nth-child(even) {background-color: $lighterBackground}
 
-#mcSignup{
+#profilePic {
+  width: 50px;
+  height: 50px;
+  -webkit-border-radius: 75px;
+  -moz-border-radius: 75px;
+  border-radius: 75px;
+  margin: auto;
+  transform: translate(0%, 35%);
+}
 
+#mcSignup{
+  background:none;
+  clear:left;
+  font-family: $ubuntu;
 }
 #email{
   background-color: $lightBackground;
@@ -109,19 +139,19 @@ tr:nth-child(even) {background-color: $lighterBackground}
 }
 #subscribe:hover{
   background-color: $titleColor;
-  color: #000000;
+  color: black;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 800px) {
 
   body {
-      background: -webkit-radial-gradient(#323232, #202020) fixed;
+      background: -webkit-radial-gradient($lightBackground-color, $background-color) fixed;
       /* For Safari 5.1 to 6.0 */
-      background: -o-radial-gradient(#323232, #202020) fixed;
+      background: -o-radial-gradient($lightBackground-color, $background-color) fixed;
       /* For Opera 11.1 to 12.0 */
-      background: -moz-radial-gradient(#323232, #202020) fixed;
+      background: -moz-radial-gradient($lightBackground-color, $background-color) fixed;
       /* For Firefox 3.6 to 15 */
-      background: radial-gradient(#323232, #202020) fixed;
+      background: radial-gradient($lightBackground-color, $background-color) fixed;
       /* Standard syntax */
       background-repeat: repeat;
       background-size: cover;
@@ -134,8 +164,17 @@ tr:nth-child(even) {background-color: $lighterBackground}
 }
 
 
-@media (max-width: 1000px) {
+@media (max-width: 800px) {
   body {
-    background-color: #202020;
+    background-color: $background-color;
+  }
+  #profilePic {
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 75px;
+    -moz-border-radius: 75px;
+    border-radius: 75px;
+    margin: auto;
+    transform: translate(0%, 0%);
   }
 }

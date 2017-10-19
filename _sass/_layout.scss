@@ -13,7 +13,7 @@ footer,
 }
 
 .nav {
-  box-shadow: 0 2px 2px -2px $default-color;
+  box-shadow: 0 2px 2px -2px none;
   overflow: auto;
 
   &-container {
@@ -61,11 +61,11 @@ footer,
 
   a {
     color: $default-color;
-    font-family: $sans-font;
+    font-family: $ubuntu;
   }
 }
 
-@media (min-width: 600px) {
+@media (min-width: 800px) {
   .nav {
     &-container {
       text-align: left;
@@ -80,7 +80,7 @@ footer,
 }
 
 footer {
-  font-family: $palatino;
+  font-family: $ubuntu;
   padding: 2rem 0;
   text-align: center;
 

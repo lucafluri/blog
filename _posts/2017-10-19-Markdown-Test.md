@@ -16,8 +16,18 @@ Ordered:
 
 [Liink](google.com)
 
-![image](http://lucafluri.ch/icon.ico)
+-------
 
+![](http://lucafluri.ch/icon.ico)
+
+--------
+
+<center style="transform: translateY(-20px)">footer test</center><br>
+
+
+Reference [Test][1]
+
+[1]: http://google.com
 
 
 ```sh
@@ -29,7 +39,6 @@ sudo apt-get install make
 ```python
 Input = raw.input()
 print("Hello Markdown")
-
 ```
 > This is a quote  
 > Still a quote  
