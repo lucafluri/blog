@@ -3,9 +3,13 @@ permalink:      /:year-:month-:day/:title
 
 # Setup
 title:          The Citric
+description:    "A blog by Luca Fluri"
+logo:           "/icon.ico"
 paginate:       5
 baseurl:        ""
 url:            "http://blog.lucafluri.ch"
+google_site_verification: "93c-l3iCnA_vMHMj2UVUVbCw8x2y-Eim1ajYuvLWCTQ"
+
 
 # Assets
 sass:
@@ -18,15 +22,28 @@ markdown:       kramdown
 # About
 author:
   name:         Luca Fluri
+  email:        me@lucafluri.ch
+
+social:
+  name:         Luca Fluri
   url:          http://lucafluri.ch
   email:        me@lucafluri.ch
-  twitter:      lucafluri
-  github:       lucafluri
+  twitter:
+    username:   lucafluri
+  github:
+    username:   lucafluri
+
+  links:
+    - https://twitter.com/lucafluri
+    - https://github.com/lucafluri
+    - https://www.instagram.com/lucafluri/
+    - https://soundcloud.com/lucafluri
 
 
 # Gems
 gems:
   - jekyll-paginate
   - jekyll-feed
+  - jekyll-seo-tag
 
 show_drafts: false
