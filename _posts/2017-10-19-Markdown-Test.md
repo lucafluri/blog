@@ -1,8 +1,11 @@
 ---
 layout: post
-title: "Markdown Test"
-author: "Luca Fluri"
+title: Markdown Test
+author: Luca Fluri
+published: true
 ---
+**[Last Updated: 2017-10-19]**
+
 
 **_This is a test post_**   
 Unordered List:
