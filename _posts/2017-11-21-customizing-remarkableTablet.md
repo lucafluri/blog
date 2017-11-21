@@ -48,5 +48,5 @@ My sleeping screen for instance has this as background:
 Under `/usr/share/remarkable/templates` can all the templates be found. It's very similar to the Splashscreens, all are just pngs that are used as base layer in notebooks. Changing them is the same as for the Splashscreens (Remember to back up all the files).
 
 ## Further Resources
- - [https://www.reddit.com/r/RemarkableTablet/]()
- - [http://www.remarkablewiki.com]()
+ - [https://www.reddit.com/r/RemarkableTablet/](https://www.reddit.com/r/RemarkableTablet/)
+ - [http://www.remarkablewiki.com](http://www.remarkablewiki.com)
