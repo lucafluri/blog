@@ -15,9 +15,13 @@
   &-title {
     color: $default-shade;
     font-family: $ubuntu;
-    font-size: 4rem;
+    font-size: 3rem;
     margin: 1rem 0;
     text-align: center;
+
+    @media (min-width: 600px) {
+      font-size: 4rem;
+    }
   }
 
   &-line {
