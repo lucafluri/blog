@@ -17,10 +17,10 @@ published: true
 
 # Files
 There are several interesting or useful files to note:  
-  - `/home/root/.bash.rc` (containing variable and color declarations, dont mess with it)
+  - `/home/root/.bashrc` (containing variable and color declarations. Can safely be removed as it is not used)
   - `/home/root/.config/remarkable/xochitl.conf` (Settings, ssh password, safed wifi networks)
   - `/usr/share/remarkable` (All Splashscreens, Templates and WebUI files)
-  - `/home/root/.local/share/remarkable/xochitl` (Looks like all the thumbnail jpg for pdfs)
+  - `/home/root/.local/share/remarkable/xochitl` (Notebooks, cached PNG representation of the pages, PDF files, and metadata allowing to identify which files belong to which document/notebook, thanks /u/stucule)
 
 
 # Customizing
