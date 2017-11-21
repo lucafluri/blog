@@ -11,7 +11,7 @@ published: true
 1. On your ReMarkable go to **Settings/About/Copyrights and Licenses/General Information**
 2. Under GPLv3 Compliance note the **username** (default = root) and **password** (its possible to change the password later)
 3. Note the IP Address depending on how you want to connect to your device (USB is easier)
-  - **USB**: [10.11.99.1](10.11.99.1) is the default Address (It's the same for the USB webinterface)
+  - **USB**: [10.11.99.1](//10.11.99.1/) is the default Address (It's the same for the USB webinterface)
   - **WIFI**: The other IP Address
 4. Connect via a **SFTP** Client (I recommend [FileZilla](https://filezilla-project.org/) to the ReMarkable using the before noted IP Address, username and password (It has to be via SFTP not FTP. The Tablet currently only supports a SSH connection and SFTP is a FileTransferProtocol based on SSH)
 
