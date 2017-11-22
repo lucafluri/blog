@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Home
+published: true
 ---
 
 <div class="catalogue">
@@ -12,7 +13,7 @@ title: Home
         <div class="catalogue-line"></div>
 
         <p>
-          {{ post.content | strip_html | truncatewords: 30 }}
+          {{ post.content | strip_html | truncatewords: 10}}
         </p>
 
       </div>
