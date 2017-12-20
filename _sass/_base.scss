@@ -142,6 +142,14 @@ tr:nth-child(even) {background-color: $lighterBackground}
   background-color: $titleColor;
   color: black;
 }
+#counter {
+    font-size: 9px;
+    text-align: center;
+    position: relative;
+    height: 8px;
+    width:auto;
+
+}
 
 @media (min-width: 800px) {
 
