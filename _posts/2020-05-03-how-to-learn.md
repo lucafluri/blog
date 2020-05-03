@@ -16,7 +16,7 @@ Based on the [Learning How to Learn](https://www.coursera.org/learn/learning-how
 
 |                           Focused                            |                           Diffused                           |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| Activated by **paying attention** to what you are trying to learn. In this mode **familiar thought patterns** are used which can lead to "thinking inside the box" and not seeing the overall big picture. | Is a **relaxed** thinking style which allows you to look at things **more broadly**. Get into this mode by taking breaks, doing mundane things like cleaning your room or meditating. |
+| Activated by `paying attention` to what you are trying to learn. In this mode `familiar thought patterns` are used which can lead to "thinking inside the box" and not seeing the overall big picture. | Is a `relaxed` thinking style which allows you to look at things `more broadly`. Get into this mode by taking breaks, doing mundane things like cleaning your room or meditating. |
 
 **You can't be in both modes at the same time!**
 
@@ -30,9 +30,9 @@ When learning something new and difficult, the mind needs to be able to go back 
 
 ### How to form a chunk?
 
-1. **Focus** on new Material!
-2. **Understand** the basic idea
-3. **Practice** to gain context
+1. `Focus` on new Material!
+2. `Understand` the basic idea
+3. `Practice` to gain context
    1. Learn when and when <u>not</u> to use the chunk
    2. See the bigger Picture
 
@@ -48,16 +48,16 @@ Chunks play a vital role in information retention. They effectively compress and
 
 Several steps can be taken to ensure you don't fall into this trap:
 
-- **Test yourself**
+- `Test yourself`
   - Take mini-tests
   - **Recall** (Look away and try to recall as much as possible without looking at the solutions)
-- **Minimize Highlighting**
+- `Minimize Highlighting`
   - Instead summarize key concepts by taking brief notes.
-- **Make and learn from Mistakes**
+- `Make and learn from Mistakes`
   - Mistakes happen, embrace and learn from them
-- **Use deliberate Practice**
+- `Use deliberate Practice`
   - Focus on the next harder thing. Don't repeat stuff you've already mastered (Overlearning).
-- **Interleave**
+- `Interleave`
   - Practice different techniques or concepts in one session
 
 
@@ -74,16 +74,14 @@ Also be aware of your **Einstellung (Mindset)**. This is your initial Intuition 
 
 The enemy and close friend of every student. Procrastination actually activates areas in your brain associated with pain and has similarities to addiction. It is a automatic habit we are mostly unaware of.
 
-###  Habits
-
 Habits are essentially energy savers, they "automate" tasks and free up mental resources.
 
-They consist of the following steps:
+The habit of procrastination (and habits in general) consists of the following steps:
 
 1. **The Cue** (e.g. cellphone, noise, open youtube tab) => **APPLY WILLPOWER HERE**
    1. This is where you may get into your habit of procrastination
-2. **The Routine**
-3. **The Reward**
+2. **The Routine** (What your zombie brain likes to do)
+3. **The Reward** (Why are you Procrastinating? What do earn from it?)
 4. **The Belief**
 
 
@@ -95,7 +93,7 @@ They consist of the following steps:
   - Daily To-Do List (Focus on a reasonable and achievable amount, try and make your To-Do's SMART)
   - Plan your quitting time. Have something to look forward too and have deadline.
 - **Commit yourself to a certain routines and tasks each day**
-  - Write your daily plans (To-Do's) the night before.
+  - Write your daily plans (To-Do's) the night before. 
   - Make sure you get rewarded
   - Arrange your work into a series of small challenges (Make your Tasks SMART)
     - **S**pecific
