@@ -2,7 +2,7 @@
 permalink:      /:year-:month-:day/:title
 
 # Setup
-title:          The Citric
+title:          Luca Fluri's Blog
 description:    "A blog by Luca Fluri"
 logo:           "/icon.ico"
 paginate:       5
@@ -34,10 +34,8 @@ social:
     username:   lucafluri
 
   links:
-    - https://twitter.com/lucafluri
     - https://github.com/lucafluri
     - https://www.instagram.com/lucafluri/
-    - https://soundcloud.com/lucafluri
 
 
 # Gems
