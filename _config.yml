@@ -44,4 +44,4 @@ gems:
   - jekyll-feed
 
 
-show_drafts: false
+show_drafts: true
